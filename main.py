@@ -24,7 +24,7 @@ def select():
     res = con.cursor()
     sql = "SELECT * from employee_db"
     #res.excecute(sql)
-   #result=res.fetchall()
+    #result=res.fetchall()
     print(res)
 
 def delete():
